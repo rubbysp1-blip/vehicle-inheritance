@@ -8,6 +8,15 @@ public class Vehicle {
     private double cargoCapacity;
     private double fuelCapacity;
 
+    public Vehicle(){}
+
+    public Vehicle(String color, int numOfPassengers, double cargoCapacity, double fuelCapacity) {
+        this.color = color;
+        this.numOfPassengers = numOfPassengers;
+        this.cargoCapacity = cargoCapacity;
+        this.fuelCapacity = fuelCapacity;
+    }
+
     public String getColor() {
         return color;
     }
