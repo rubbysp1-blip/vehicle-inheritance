@@ -1,18 +1,16 @@
 package com.pluralsight;
 
-import java.math.BigDecimal;
-
 public class Vehicle {
     private String color;
-    private int numOfPassengers;
-    private double cargoCapacity;
-    private double fuelCapacity;
+    private int numberOfPassengers;
+    private int cargoCapacity;
+    private int fuelCapacity;
 
     public Vehicle(){}
 
-    public Vehicle(String color, int numOfPassengers, double cargoCapacity, double fuelCapacity) {
+    public Vehicle(String color, int numOfPassengers, int cargoCapacity, int fuelCapacity) {
         this.color = color;
-        this.numOfPassengers = numOfPassengers;
+        this.numberOfPassengers = numOfPassengers;
         this.cargoCapacity = cargoCapacity;
         this.fuelCapacity = fuelCapacity;
     }
@@ -29,7 +27,7 @@ public class Vehicle {
         return fuelCapacity;
     }
 
-    public void setFuelCapacity(double fuelCapacity) {
+    public void setFuelCapacity(int fuelCapacity) {
         this.fuelCapacity = fuelCapacity;
     }
 
@@ -37,15 +35,15 @@ public class Vehicle {
         return cargoCapacity;
     }
 
-    public void setCargoCapacity(double cargoCapacity) {
+    public void setCargoCapacity(int cargoCapacity) {
         this.cargoCapacity = cargoCapacity;
     }
 
-    public int getNumOfPassengers() {
-        return numOfPassengers;
+    public int getNumberOfPassengers() {
+        return numberOfPassengers;
     }
 
-    public void setNumOfPassengers(int numOfPassengers) {
-        this.numOfPassengers = numOfPassengers;
+    public void setNumberOfPassengers(int numberOfPassengers) {
+        this.numberOfPassengers = numberOfPassengers;
     }
 }

@@ -7,7 +7,7 @@ public class App {
         System.out.printf("A mopped in color %s with %s fuel capacity.\n", slowRide.getColor(), slowRide.getFuelCapacity());
 
         Car car = new Car("Blue", 4, 20, 55);
-        System.out.printf("A car that fits %s people and %s fuel capacity.\n", car.getNumOfPassengers(), car.getFuelCapacity());
+        System.out.printf("A car that fits %s people and %s fuel capacity.\n", car.getNumberOfPassengers(), car.getFuelCapacity());
 
         SemiTruck semiTruck = new SemiTruck("Blue", 3, 500, 150);
         System.out.printf("A semi truck in color %s with %s cargo capacity.\n", semiTruck.getColor(), semiTruck.getCargoCapacity());
